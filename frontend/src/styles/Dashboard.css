@@ -1,0 +1,66 @@
+.dashboard-container {
+  padding: 40px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+  font-weight: 600;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #334155;
+  color: white;
+}
+
+.task-input button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  background: #10b981;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task-input button:hover {
+  background: #059669;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background: #ef4444;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
